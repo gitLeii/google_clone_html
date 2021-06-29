@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo
+        {
+            margin: 10% 40%;
+        }
+        .logo img
+        {
+            height: 130px;
+            width: 300px;
+            
+        }
+
+        #search-box 
+        {
+            height: 5%;
+            width: 30%;
+            margin: -8% 33%;
+            
+        }
+        #input 
+        {
+            background-color: var(--search-box-bg, white);
+            /* border: none; */
+            border-radius: 500px;
+            color: var(--search-box-text);
+            font-family: inherit;
+            font-size: inherit;
+            height: 100%;
+            outline: none;
+            padding-inline-end:  44px;
+            padding-inline-start: 52px;            
+            width: 100%;
+            border: 1.5px solid black;
+            
+        }
+        .top-contents
+        {
+            float: right;
+            margin-top: -160px;
+            margin-right: 35px;
+        }
+        .top-items ul 
+        {
+            display: inline;
+        }
+        .top-items ul li
+        {
+            color: black;
+            display: inline-block;
+            padding: 5px;
+        }
+        button
+        {
+            padding: 10px 15px;
+            background-color: #008CBA;
+            border-color: #008CBA;
+            color: wheat;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top-contents">
+        <div class="top-items">
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>
+                <li><button>Sign in</button></li>
+            </ul>
+        </div>
+    </div>
+    <div id="logo" class="logo"><img src="google.png" alt="#"></div>
+    <div id="search-box"><input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Search Google or type a URL" aria-live="polite"></div>
+</body>
+</html>
